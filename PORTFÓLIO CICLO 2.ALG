@@ -21,9 +21,9 @@ escreval ("O Percentual de votos nulos foi de:", (nulos*100)/total,"%")
 escreval ("O Percentual de votos validos foi de:", (validos*100)/total,"%")
 
 se (validos > brancos + nulos) entao
-escreval("SOMA DOS VOTOS V¡LIDOS MAIOR QUE BRANCOS E NULOS")
+escreval("SOMA DOS VOTOS V√ÅLIDOS MAIOR QUE BRANCOS E NULOS")
 senao
-escreval("SOMA DOS VOTOS BRANCOS E NULOS ULTRAPASSA OS V¡LIDOS")
+escreval("SOMA DOS VOTOS BRANCOS E NULOS ULTRAPASSA OS V√ÅLIDOS")
 fimse
 
 Fimalgoritmo
