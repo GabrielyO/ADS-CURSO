@@ -1,4 +1,4 @@
-Algoritmo "portfólioCiclo3"
+Algoritmo "portfÃ³lioCiclo3"
 
 Var
 
@@ -16,7 +16,7 @@ Inicio
 
 leia(qtdAlunos)
 
-para i de 1 até qtdAlunos passo 1 faca
+para i de 1 atÃ© qtdAlunos passo 1 faca
      leia(nome[i])
      leia(n1)
      leia(n2)
@@ -24,21 +24,21 @@ para i de 1 até qtdAlunos passo 1 faca
      leia(n4)
      media[i] <- (n1+n2+n3+n4)/4
      
-     se media[i] < 6 então
-        se media[i] < 4 então
+     se media[i] < 6 entÃ£o
+        se media[i] < 4 entÃ£o
            status[i] <- "REPROVADO"
-        senão
+        senÃ£o
              status[i] <- "EXAME"
         fimse
-     senão
+     senÃ£o
           status[i] <- "APROVADO"
      fimse
 fimpara
 
-escreval("Nome Aluno - Média - Status")
+escreval("Nome Aluno - MÃ©dia - Status")
 i <- 0
 
-para i de 1 até qtdAlunos passo 1 faca
+para i de 1 atÃ© qtdAlunos passo 1 faca
      escreval(nome[i], " - ", media[i], " - ", status[i])
 fimpara
 Fimalgoritmo
